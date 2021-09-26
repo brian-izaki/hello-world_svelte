@@ -1,6 +1,6 @@
-import App from './App.svelte';
+import ListaCompras from './lista-compras/ListaCompras.svelte';
 
-const app = new App({
+const app = new ListaCompras({
 	target: document.body,
 	props: {
 		name: 'world'
